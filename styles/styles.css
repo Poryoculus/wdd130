@@ -24,3 +24,32 @@ img {
 p {
     padding: 10px;
 }
+main {
+    max-width: 840 px
+
+}
+main img {
+    width: 150px;
+    height: auto;
+
+}
+p { padding: 0;}
+
+aside {
+    width: 20rem;
+    margin: 3em;
+    border: 2px solid black;
+    padding: 20 px;
+    background: darkslategrey;
+    color: aliceblue;
+
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    margin-top: 50px;
+    border-top: 3px;
+    text-align: center;
+}
