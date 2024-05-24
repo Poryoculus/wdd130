@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
 
 :root {
-    --primary-color: #D5ECD4 ;  
-    --secundary-color: #6B6054 ;
-    --accent-color: #929487 ; 
-    --additional-accent-color: #C3DAC3 ; 
+    --primary-color: #6f7c12 ;  
+    --secundary-color: #aad922 ;
+    --accent-color: #8cff98 ; 
+    --additional-accent-color: #483519 ; 
    
     --heading-font: "asap", monospace ; 
     --paragraph-font: "asap", monospace ;  ;  
     
     --nav-background-color: #D5ECD4;  
-    --nav-link-color: #030ba0 ;
-    --nav-hover-link-color: #030ba0 ;
+    --nav-link-color: #000 ;
+    --nav-hover-link-color: #000 ;
     --nav-hover-background-color: #A1B0AB ; 
 }
 
@@ -21,13 +21,38 @@ h1 h2 h3 h4 h5 h6 {
 
 }
 
+header {
+    display: grid;
+    grid-template-columns: 300px 2fr 2fr;
+    align-items: center;
+    justify-items: center;
+    margin: 1rem;
+    padding: 20px;
+}
+
+.navi {
+    display: flex;
+    justify-self: center;
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    width: 60px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+
+}
 p { 
     padding: 20px;
  }
+
 main {
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 0px;   
+    padding: 0px;
+    background: var(--primary-color);   
 }
 
 
@@ -53,7 +78,7 @@ h1 {
 
 article {
     position: absolute;
-    background-color: #030ba0;
+    background-color: #000;
     top: 60px ;
 	left: 10px;
 	background: radial-gradient(#eee, #4567aa);
@@ -63,17 +88,86 @@ article {
 	opacity: 70%;
 }
 
-.stats {
-    width: 90%;
-    height: 60%;
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
 }
 
+#paragraph1 {
+    grid-column: 1
+}
+
+.history h2 {
+    position: absolute;
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    justify-self: center;
+
+}
+
+.history img {
+    align-items: center;
+    width: 400px;
+    margin: 60px;
+
+}
+.adventure {
+    display: flex;
+}
+
+.adventure h2 {
+    position: absolute;
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    margin: 40px;
+    top: 130%;
+    right: 50%;
+    justify-self: center
+}
+
+.adventure img {
+    max-width: 200px;
+    max-height: 100px;
+}
+.stats {
+    display: flex;
+    justify-self: center;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
 .stats img {
     float: right;
-    width: 200px;
-    height: 170px;
+    width: 10em;
+    height: 8rem;
+    padding: 5px;
 }
 
+footer {
+    display: block;
+    width: 960px;
+}
+.social {
+    display: flex;
+    float: right;
+    
+}
 .social img {
     width: 50px;
 }
