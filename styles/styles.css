@@ -95,10 +95,10 @@ footer {
 
 .box {
     margin: 1rem;
-    padding: 1rem, ;
+    padding: 1rem;
     border: 1px solid #000;
     background-color: #d3c073;
-    color: #000;
+    color: #000;    
 }
 
 .indent {
