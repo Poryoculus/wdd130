@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto mono, ;
+    font-size: 1.3rem;
+    color: black;
+    
+
+}
+
+header {
+    margin: 0;
+
+}
+strong {
+    font-size: 1.4rem;
+    color: blue;
+}
+
+h1 {
+    color: black;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+form {
+    width: 750px;
+    margin: 5px;
+    padding: 2px;
+    border: black solid 1px;
+    border-radius: 0.5rem;
+    background-color: whitesmoke;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .4rem;
+    margin: 6px;
+    padding: 4px;
+    align-self: center;
+    border: 1px solid;
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 1px;
+    font-size: 1.1rem;
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 3px;
+    display: grid;
+    width: 6rem;
+    justify-self: flex-end;
+    
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 0px;
+    padding: 10px;
+    width: 750px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+
