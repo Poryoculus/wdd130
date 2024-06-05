@@ -61,7 +61,7 @@ input, select, textarea {
 
 }
 
-div {
+div{
     display: flex;
     flex-direction: column;
 }
