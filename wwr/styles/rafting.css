@@ -66,7 +66,7 @@ main {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 1px;
     right: 43%;
@@ -185,6 +185,7 @@ iframe {
 }
 
 form {
+    display: flex;
     width: 850px;
     margin: 7px;
     padding: 2px;
@@ -249,7 +250,6 @@ textarea {
 }
 
 .row h4 {
-    float:center;
     position: relative;
 }
 .raft {
@@ -292,4 +292,43 @@ td {
     
 
     
+}
+
+.home {
+    position: relative ;
+ }
+ 
+.home img {
+     display: block;
+     width: 100%;
+     height: auto;
+ }
+ 
+.home h1 {
+     position: absolute;
+     bottom: 80px;
+     right: 200px;
+     color: white;
+ }
+.home button {
+    top: 330px;
+    right: 70px;
+    position: absolute;
+}
+
+.sideimage {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 18px;
+
+}
+
+.sideimage img {
+    width: 480px;
+    margin: 20px;
+    height: 500px;
+    float: left;
+    display: block;
+    position: relative;
 }
